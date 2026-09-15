@@ -1,0 +1,15 @@
+# ExoML: Exoplanet Exploration Using Machine Learning
+# Machine Learning Capstone Project (23CSE301) - Requirements
+# Python 3.11+
+
+numpy>=2.1.0
+pandas>=2.2.2
+scipy>=1.17.1
+scikit-learn>=1.5.0
+matplotlib>=3.9.0
+seaborn>=0.13.0
+jinja2>=3.1.4
+nbformat>=5.10.0
+nbclient>=0.10.0
+ipykernel>=6.29.0
+joblib>=1.4.0
