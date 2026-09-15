@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python builder scratch scripts
+scratch_build_notebook.py
+build_3_notebooks.py
+execute_notebook.py
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
