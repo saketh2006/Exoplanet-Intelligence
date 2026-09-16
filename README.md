@@ -18,7 +18,7 @@
 
 | Path | Type | Contents & Purpose |
 | :--- | :---: | :--- |
-| 📂 [`data/`](file:///c:/Users/DELL/Downloads/ml_project/ml_project/data) | Directory | 12 zero-leakage partitioned train/test feature matrices and target labels (`.csv`) |
+| 📂 [`data/`](file:///c:/Users/DELL/Downloads/ml_project/ml_project/data) | Directory | Raw NASA dataset and clean preprocessed train/test datasets (`.csv`) |
 | 📂 [`notebooks/`](file:///c:/Users/DELL/Downloads/ml_project/ml_project/notebooks) | Directory | 3 modular execution notebooks with all cells executed and outputs rendered |
 | 📄 [`README.md`](file:///c:/Users/DELL/Downloads/ml_project/ml_project/README.md) | File | Project documentation, benchmarks, tables, and execution instructions |
 | 📄 [`requirements.txt`](file:///c:/Users/DELL/Downloads/ml_project/ml_project/requirements.txt) | File | Pinned Python package dependencies for exact environment replication |
@@ -28,8 +28,8 @@
 | Notebook | Focus Area | Key Deliverables & Rubric Mapping |
 | :--- | :--- | :--- |
 | 📘 [`01_preprocessing.ipynb`](file:///c:/Users/DELL/Downloads/ml_project/ml_project/notebooks/01_preprocessing.ipynb) | Data Audit, EDA & Preprocessing | Data audit, 12 feature distributions, Pearson heatmap, outlier trimming ($R_p \le 50 R_\oplus$), median imputation, standard scaling, and split export |
-| 📗 [`02_regression.ipynb`](file:///c:/Users/DELL/Downloads/ml_project/ml_project/notebooks/02_regression.ipynb) | Planetary Radius Estimation | 10 regression algorithms benchmarked, 5-fold CV, GridSearchCV hyperparameter tuning, Actual vs. Predicted plots, Residual analysis, Feature Importance |
-| 📙 [`03_classification.ipynb`](file:///c:/Users/DELL/Downloads/ml_project/ml_project/notebooks/03_classification.ipynb) | Astrophysical Signal Vetting | 5 classifiers benchmarked, Confusion matrices, multi-class ROC-AUC curves (OvR), and Viva Voce defense guide |
+| 📗 [`02_regression.ipynb`](file:///c:/Users/DELL/Downloads/ml_project/ml_project/notebooks/02_regression.ipynb) | Planetary Radius Estimation | 10 regression algorithms benchmarked in individual cells, 5-fold CV, GridSearchCV tuning, Actual vs. Predicted plots, Residual analysis, Feature Importance |
+| 📙 [`03_classification.ipynb`](file:///c:/Users/DELL/Downloads/ml_project/ml_project/notebooks/03_classification.ipynb) | Astrophysical Signal Vetting | 5 classifiers benchmarked in individual cells, Decision Tree visualization, Confusion matrices, and multi-class ROC-AUC curves (OvR) |
 
 ---
 
