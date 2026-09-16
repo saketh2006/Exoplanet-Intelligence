@@ -13,10 +13,20 @@ env/
 ENV/
 .venv/
 
-# Python builder scratch scripts
+# Build & Execution scratch scripts
 scratch_build_notebook.py
 build_3_notebooks.py
 execute_notebook.py
+execute_3_notebooks.py
+
+# Raw dataset and models
+*.csv
+!data/*.csv
+models/
+*.pkl
+*.pdf
+_archive/
+DATA_PREPROCESSING_WORKFLOW.md
 
 # OS / Editor junk
 .DS_Store
